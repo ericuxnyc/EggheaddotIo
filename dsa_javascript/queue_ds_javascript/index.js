@@ -39,4 +39,8 @@ console.log(q.isEmpty());
 q.enqueue("Help others");
 q.enqueue("Be happy");
 console.log(q.peek());
+q.dequeue();
 console.log(q.totalList);
+q.dequeue();
+q.dequeue();
+console.log(q.isEmpty());
