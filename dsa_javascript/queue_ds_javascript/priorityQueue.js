@@ -23,7 +23,7 @@ function createPriorityQueue() {
       }
       return lowPriorityQueue.peek();
     },
-     /* get totalList() {
+    /* get totalList() {
        const list = queue;
        list.forEach((item) => list.push(item));
      console.log(list);
@@ -47,3 +47,10 @@ console.log(pq.length);
 console.log(pq.isEmpty());
 console.log(pq.totalList);
 
+greet();
+function greet() {
+  console.log("Hello");
+}
+
+newGreet();
+const newGreet = () => console.log("Hello");
